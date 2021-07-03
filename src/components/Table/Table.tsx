@@ -1,10 +1,7 @@
 import React from 'react'
 import { TableStyled } from './styles'
 import Row from '../Row'
-import { TableStateReducer } from '../../utils/reducers'
-import { IAction, IChild, IState, ITableActions,  } from '../../utils/types'
-import { Fetch } from '../../utils/utils'
-const PAGE_LENGTH = 5;
+import { IChild, IState, ITableActions,  } from '../../utils/types'
 
 interface Props extends IState {
     tableActions: ITableActions;

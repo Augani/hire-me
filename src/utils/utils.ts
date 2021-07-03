@@ -1,4 +1,3 @@
-import { RequestOptions } from "http";
 
 export async function Http(
     request: RequestInfo,
